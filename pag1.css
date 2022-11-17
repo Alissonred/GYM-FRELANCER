@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+body{
+    margin: 0%;
+    padding: 0;
+    font-family:  'Montserrat', sans-serif;
+}
+.header{
+    background-color: #2c3e50;
+    color: #f6f8fa;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+li{
+    margin: 15px;
+}
+.navclase{
+    display: flex;
+    font-size: medium;
+}
+.seccion{
+    background-color: #18bc9c;
+    min-height: 80vh;
+    padding-top: 60px;
+}
+.centro{
+    display: flex;
+    color: #f6f8fa;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.subTitulo{
+    color:#2c3e50;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: center;
+   }
+   .portafolio{
+       display: flex;
+       flex-direction:column;
+       align-items:center;
+       width: 80%;
+       margin: auto;
+       gap:8px;
+   }
+   img{
+       width:300px;
+   }
+
+   .linea{
+    display: flex;
+    align-items: center;
+}
+
+.about{
+    background-color:  #18bc9c;
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    align-items: center;
+    min-height: 50vh;
+}
+.articulo{
+    display: flex;
+    justify-content: space-around;  
+    flex-direction: row;
+    
+}
+.artUno{
+margin-left: 30%;
+margin-right: 1%;
+}
+.artDos{
+    margin-left: 1%;
+    margin-right: 30%;
+}
+.contacme{
+    display: flex;
+    flex-direction: column;
+    color: #2c3e50;
+    align-items: center;  
+}
+.footer{
+    background-color: #2c3e50;
+}
